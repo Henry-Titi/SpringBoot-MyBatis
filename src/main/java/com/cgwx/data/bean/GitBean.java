@@ -19,4 +19,5 @@ public class GitBean
     private String gitName;
     private Integer gitNo;
     private Integer hotfix;
+    private Integer hotfixtest;
 }
