@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--    自定义别名配置-->
+    <typeAliases>
+        <typeAlias type="com.cgwx.data.bean.Employee" alias="employee"/>
+        <typeAlias type="com.cgwx.data.bean.Department" alias="department"/>
+    </typeAliases>
+</configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--和接口的全类名绑定-->
+<mapper namespace="com.cgwx.data.mapper.EmployeeMapper">
+    <!--
+    Employee getEmpById(Integer id);
+
+    void insertEmp(Employee employee);
+    -->
+    <select id="getEmpById" resultType="employee">
+        SELECT * FROM employee WHERE id = #{id}
+    </select>
+
+    <insert id="insertEmp">
+        INSERT INTO employee(lastName,email,gender,dId) VALUES (#{lastName},#{email},#{gender},#{dId})
+    </insert>
+</mapper>
