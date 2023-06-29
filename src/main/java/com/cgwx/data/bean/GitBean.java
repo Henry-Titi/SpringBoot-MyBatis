@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.springframework.context.annotation.Bean;
 
 /**
  * @author GaoWei
@@ -18,4 +17,5 @@ import org.springframework.context.annotation.Bean;
 public class GitBean
 {
     private String gitName;
+    private Integer gitNo;
 }
