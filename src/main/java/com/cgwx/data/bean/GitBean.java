@@ -21,4 +21,5 @@ public class GitBean
     private Integer hotfix;
     private Integer hotfixmaster;
     private Integer hotfixtest;
+    private String gitHubpulltest;
 }
